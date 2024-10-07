@@ -1,0 +1,32 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu__link{
+    display: inline;
+    padding-right: 16px;
+    font-size: 14px;
+}
+
+.menu{
+    display: flex;
+    justify-items: space-between;
+    margin: auto 32px;
+}
+
+.menu__button{
+    color: #03B2A5;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #E3F5F5;
+    border-radius: 4px;
+    padding: 14px 20px
+}
+
+.menu__link-materials::after{
+    height: 4.2px;
+    width: 9.8px;
+}
+
+/*          блог            */

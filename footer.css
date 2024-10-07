@@ -1,0 +1,132 @@
+footer{
+    background-color: #2963A3;
+    height: 302px;
+    overflow: hidden;
+}
+
+.footer__links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__link{
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.footer__list{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.footer__top-section{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 26px 24px 38px;
+    gap: 21px;
+}
+
+.footer__title{
+    font-weight: bold;
+    font-size: 18px;
+    color:#FFFFFF;
+}
+
+.footer__description{
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 450px;
+}
+
+.footer__btn{
+    width: 64px;
+    position: relative;
+    right: 64px;
+    border: none;
+    border-radius: 4px;
+    background-color: #16C8BB;
+    height: inherit;
+}
+
+.footer__input{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__connection{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.footer__social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer__icons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    list-style: none;
+}
+
+.footer__icons:nth-child(1){
+    gap: 8.16px;
+}
+
+
+.footer__info-item{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.footer__info{
+    margin: 16px 32px 17px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 48px;
+}
+
+.footer__email{
+    width: 384px;
+    height: 48px;
+    background-color: #FFFFFF;
+    color: #9D9D9D;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(157, 157, 157, 0.2);
+    line-height: 40px;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.footer__btn img{
+    background: none;
+}
+
+.footer__info-item, .footer__description{
+    opacity: 70%;
+}
+
+hr{
+    opacity: 30%;
+    margin: auto 32px;
+}
